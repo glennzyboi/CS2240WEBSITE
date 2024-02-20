@@ -159,7 +159,7 @@ pre {
 .features-main .grid {
   padding: 30px;
 }
-footer{
+footer.footer{
   padding: 2rem;
   margin: 0;
 }
@@ -176,7 +176,23 @@ footer{
 .owner-photo img {
   margin-bottom: 10px;
   height: 460px;
-  object-fit: cover;
+  object-fit: cover;z
+}
+.card img:hover{
+  opacity: 50%;
+}
+.card:hover{
+
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  transform: scale(1.05);
+  transition: 0.3s;
+  visibility: visible;
+  overflow:hidden;
+
+}
+.product-details{
+  position:absolute;
+  visibility: hidden;
 }
 
 @keyframes slideInFromLeft {
